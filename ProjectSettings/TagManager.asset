@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Room 1
+  - Room 2
+  - Enemy
+  - Boundary
   layers:
   - Default
   - TransparentFX

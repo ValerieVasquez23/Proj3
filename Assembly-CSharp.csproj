@@ -53,8 +53,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-     <Compile Include="Assets\wow.cs" />
+     <Compile Include="Assets\Scripts\bulletController.cs" />
+     <Compile Include="Assets\Scripts\CameraMovement.cs" />
+     <Compile Include="Assets\Scripts\EnemyController.cs" />
+     <Compile Include="Assets\Scripts\HealthUIController.cs" />
+     <Compile Include="Assets\Scripts\ItemController.cs" />
+     <Compile Include="Assets\Scripts\LevelController.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Valerie booty face/Desktop/Binding Of Isaac Rebirth Clone/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
