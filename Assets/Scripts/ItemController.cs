@@ -24,11 +24,11 @@ public class ItemController : MonoBehaviour
         Destroy(GetComponent<PolygonCollider2D>());
         gameObject.AddComponent<PolygonCollider2D>();   
     }
-
+    /*
     private void OnTriggerEnter2D(Collider2D collision){
         if(collision.tag == "Player"){
             //PlayerController.collectedAmount++;
-            LevelController.HealPlayer(healthChange);
+            LevelController.Breakfast(healthChange);
             LevelController.MoveSpeedChange(moveSpeedChange);
             LevelController.FireRateChange(attackSpeedChange);
             LevelController.BulletSizeChange(bulletSizeChange);
@@ -37,5 +37,5 @@ public class ItemController : MonoBehaviour
 
             Destroy(gameObject);
         }
-    }
+    } */
 }

@@ -1,36 +1,90 @@
 fileFormatVersion: 2
 guid: ecc9cc754cdddfb418b1e95286a9284f
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: character_001_isaac_6
-    21300002: character_001_isaac_7
-    21300004: character_001_isaac_9
-    21300006: character_001_isaac_10
-    21300008: character_001_isaac_11
-    21300010: character_001_isaac_12
-    21300012: character_001_isaac_13
-    21300014: character_001_isaac_14
-    21300016: character_001_isaac_15
-    21300018: character_001_isaac_16
-    21300020: character_001_isaac_17
-    21300022: character_001_isaac_18
-    21300024: character_001_isaac_19
-    21300026: character_001_isaac_20
-    21300028: character_001_isaac_21
-    21300030: character_001_isaac_22
-    21300032: character_001_isaac_23
-    21300034: character_001_isaac_24
-    21300036: character_001_isaac_25
-    21300038: character_001_isaac_26
-    21300040: character_001_isaac_1
-    21300042: Isaac Head_0
-    21300044: Isaac Head_1
-    21300046: Isaac Head_2
-    21300048: Isaac Head_3
-    21300050: Isaac Head_4
-    21300052: Isaac Head_5
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: character_001_isaac_6
+  - first:
+      213: 21300002
+    second: character_001_isaac_7
+  - first:
+      213: 21300004
+    second: character_001_isaac_9
+  - first:
+      213: 21300006
+    second: character_001_isaac_10
+  - first:
+      213: 21300008
+    second: character_001_isaac_11
+  - first:
+      213: 21300010
+    second: character_001_isaac_12
+  - first:
+      213: 21300012
+    second: character_001_isaac_13
+  - first:
+      213: 21300014
+    second: character_001_isaac_14
+  - first:
+      213: 21300016
+    second: character_001_isaac_15
+  - first:
+      213: 21300018
+    second: character_001_isaac_16
+  - first:
+      213: 21300020
+    second: character_001_isaac_17
+  - first:
+      213: 21300022
+    second: character_001_isaac_18
+  - first:
+      213: 21300024
+    second: character_001_isaac_19
+  - first:
+      213: 21300026
+    second: character_001_isaac_20
+  - first:
+      213: 21300028
+    second: character_001_isaac_21
+  - first:
+      213: 21300030
+    second: character_001_isaac_22
+  - first:
+      213: 21300032
+    second: character_001_isaac_23
+  - first:
+      213: 21300034
+    second: character_001_isaac_24
+  - first:
+      213: 21300036
+    second: character_001_isaac_25
+  - first:
+      213: 21300038
+    second: character_001_isaac_26
+  - first:
+      213: 21300040
+    second: character_001_isaac_1
+  - first:
+      213: 21300042
+    second: Isaac Head_0
+  - first:
+      213: 21300044
+    second: Isaac Head_1
+  - first:
+      213: 21300046
+    second: Isaac Head_2
+  - first:
+      213: 21300048
+    second: Isaac Head_3
+  - first:
+      213: 21300050
+    second: Isaac Head_4
+  - first:
+      213: 21300052
+    second: Isaac Head_5
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -84,8 +138,9 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -96,7 +151,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -107,7 +163,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -118,6 +175,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -137,6 +195,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 32bf7070af25c4e45a7cea9a6a0b4cd1
+      internalID: 21300042
       vertices: []
       indices: 
       edges: []
@@ -157,6 +216,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 937254436640f1b459dfa49bca66b1d7
+      internalID: 21300044
       vertices: []
       indices: 
       edges: []
@@ -177,6 +237,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 5c8e40a62120b184a931b635aa046353
+      internalID: 21300046
       vertices: []
       indices: 
       edges: []
@@ -197,6 +258,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 5f9acba55d690894187b8dd191d1ebdd
+      internalID: 21300048
       vertices: []
       indices: 
       edges: []
@@ -217,6 +279,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c1c0bdb85385860428890f5aab7254d6
+      internalID: 21300050
       vertices: []
       indices: 
       edges: []
@@ -237,6 +300,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e3c72375c52a3da44aa3a86c5700e083
+      internalID: 21300052
       vertices: []
       indices: 
       edges: []
@@ -245,10 +309,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 8f3884dae48675c4eac195446e2cb3ea
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

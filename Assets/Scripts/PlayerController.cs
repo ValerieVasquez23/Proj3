@@ -24,8 +24,6 @@ public class PlayerController : MonoBehaviour
     void Awake(){
         //find the rigidbody component
         rb = GetComponent<Rigidbody2D>();
-        //cameraMovement = GetComponent<CameraMovement>();
-
     }
 
 
@@ -35,6 +33,7 @@ public class PlayerController : MonoBehaviour
         float shootH = Input.GetAxis("ShootHorizontal");
         float shootV = Input.GetAxis("ShootVertical");
 
+        //resolve sw, se, nw, ne shooting directions
         if(shootH < 0){
             LastButtonPressed = LastButton.Left;
         } else if(shootH > 0){
@@ -52,7 +51,6 @@ public class PlayerController : MonoBehaviour
         if(Mathf.Abs(shootV) > Mathf.Abs(shootH)){
             shootH = 0;
         }
-
         if(Mathf.Abs(shootV) == Mathf.Abs(shootH)){
             switch(LastButtonPressed){
                 case LastButton.Left:

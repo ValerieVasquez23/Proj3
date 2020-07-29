@@ -90,7 +90,7 @@ public class EnemyController : MonoBehaviour
     
     void Attack(){
         if(!coolDownAttack){
-            LevelController.DamagePlayer(1);
+            //Health.DamagePlayer(1);
             StartCoroutine(CoolDown());
         }
     }

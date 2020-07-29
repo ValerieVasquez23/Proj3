@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/gameRoom.unity
+    guid: 1454d017759704947bda66d26c9ba18a
+  - enabled: 1
+    path: Assets/Scenes/YoureDead.unity
+    guid: 25edc7c4399cdab4e971f52b751cb1bb
   m_configObjects: {}
